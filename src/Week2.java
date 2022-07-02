@@ -25,8 +25,8 @@ public class Week2 {
 		
 		
 		
-		//Create an if/else statement that checks the value of x and the value of y and determines what quadrant the point would be located in then prints the message "The point is in quadrant …"
-		//This problem assumes the normal graphing points of (x, y). So, if you have (-5, -10) as you x and y variables, the program should print that "The point is in quadrant 3."
+//Create an if/else statement that checks the value of x and the value of y and determines what quadrant the point would be located in then prints the message "The point is in quadrant …"
+//This problem assumes the normal graphing points of (x, y). So, if you have (-5, -10) as you x and y variables, the program should print that "The point is in quadrant 3."
 		int x = 1;
 		int y = 4;
 		
@@ -41,6 +41,24 @@ public class Week2 {
 	}else {
         System.out.println("The point is resting on the x or y axis.");
     }
-}
+		
+		
+//		Create an if/else if statement that checks myNumber against num1 and based on which condition evaluates to true, print the following messages:
+//
+//			num1 + " is smaller than my number, " + myNumber num1 + " is larger than my number, " + myNumber num1 + " is equal to my number, " + myNumber	
+		
+		int num1 = 156;
+		int myNumber = 157;
+		
+		if(num1 < myNumber) {
+			System.out.println(num1 + " is smaller than my number, " + myNumber);
+		}else if(num1 > myNumber) {
+			System.out.println(num1 + " is larger than my number, " + myNumber);
+		}else if (num1 == myNumber) {
+			System.out.println(num1 + " is equal than my number, " + myNumber);
+		}
+		
+	
+	}
 
 }
