@@ -219,6 +219,55 @@ public class Week2 {
 
 		// System.out.println("Result: " + result);
 
+		// Create a for loop that starts at 1 and goes to 100, but increments by the
+		// value of userValue and prints the value of the counter to the console each
+		// time the loop processes. Also, check to make sure that userValue is greater
+		// than 0. If userValue is not greater than 0, print "Your number needs to be
+		// greater than 0."
+
+		// int userValue = 26;
+		// if (userValue <= 0) {
+		// System.out.println("Your number needs to be greater than 0.");
+		// } else {
+		// for (int i = 1; i < 100; i += userValue) {
+		// System.out.println(i);
+		// }
+		// }
+
+		// Write a for loop that starts at zero and loops the length of a user-entered
+		// String saved in userWord. Every time the loop runs, the userWord is added to
+		// the variable longString to make a repeating string. For example, if the
+		// userWord was = "Hello", the loop would run 5 times and the word "Hello" to
+		// longString 5 times. The String printed to the console would be
+		// "HelloHelloHelloHelloHello"
+
+		// String userWord = "Hello";
+		// String longString = "";
+
+		// for (int i = userWord.length(); i > 0; i--) {
+		// longString += userWord;
+		// }
+		// System.out.println(longString);
+
+		// Write a loop that does a countdown from the variable countDown. This number
+		// represents the number that a user enters. Check to make sure the number is
+		// not larger than 10, but greater than or equal to 3. Each time the loop runs,
+		// print to the console the value of the counter followed by three periods (…).
+		// Your console should print (10…, 9…, 8…, etc.) Once out of the loop, print to
+		// the console "We have lift off!". If a number is less than 3 or greater than
+		// 10, then the only message printed to the console is "We have lift off!"
+
+		int countDown = 5;
+
+		if (countDown < 3 || countDown > 10) {
+			System.out.println("We have lift off!");
+		} else {
+			for (int i = countDown; i > 0; i--) {
+				System.out.println(i + "...");
+			}
+			System.out.println("We have lift off!");
+		}
+
 	}
 
 }
